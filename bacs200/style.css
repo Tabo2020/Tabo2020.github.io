@@ -1,0 +1,35 @@
+
+body {
+    text-align: center;
+    background-color: burlywood
+}
+header { 
+    font-size: 365%;
+    margin: auto
+    padding: 12px
+    Border: solid 12px Brown;
+    background: DarkSalmon  
+}
+p {
+    font size: 55px;
+}
+img{padding: 45px}
+Main {
+    font-size: 300%;
+    margin: auto
+    padding: 12px
+    Border: solid 12px Brown;
+    background: DarkSalmon
+}
+aside {
+    font-size: 265%;
+    border: solid 12px DarkOrange
+    
+}
+footer{
+    font-size: 265%;
+    margin: auto
+    padding: 12px
+    Border: solid 12px Brown;
+    background: DarkSalmon  
+}
