@@ -1,0 +1,15 @@
+.navyblue {
+    background-color: BlueViolet;
+}
+
+.navybluetext {
+    color: BlueViolet
+}
+
+.scroll {
+    overflow-y: scroll;
+    height: 350px
+}
+
+.height {
+    height: 350px
