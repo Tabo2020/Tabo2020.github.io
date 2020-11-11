@@ -1,9 +1,10 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <title>BACs 200 - Travel brochure</title>
-        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
     <link rel="stylesheet" href="index.css">
 
     <!-- Couresel CSS and JS -->
@@ -13,74 +14,145 @@
 </head>
 
 <body>
-     <header class="left-align lightseagreen display-4">Travel Forest </header>
-     
-      <button class="navbar-toggler ml-auto" data-toggle="collapse" data-target="#navbarNav">
-                    <span class="navbar-toggler-icon"></span>
-      </button>
-       <div class="collapse navbar-collapse" id="navbarNav">
-          <ul class="navbar-nav ml-auto float-right">
-          <li class="nav-item active">
-          <a class="nav-link navfont" href="#Home">Home</a>
-        </li>
-         <li class="nav-item">
-          <a class="nav-link navfont" href="#Packages">Bundle</a>
-        </li>
-         <li class="nav-item">
-            <a class="nav-link navfont" href="#Featured">Food and drink</a>
-         </li>
-                    </ul>
+    <header class="left-align lightseagreen display-4">Travel Forest </header>
+
+    <button class="navbar-toggler ml-auto" data-toggle="collapse" data-target="#navbarNav">
+        <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav ml-auto float-right">
+            <li class="nav-item active">
+                <a class="nav-link navfont" href="#Home">Home</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link navfont" href="#Packages">Bundle</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link navfont" href="#Featured">Food and drink</a>
+            </li>
+        </ul>
+    </div>
+    <form class="form-inline mt-2 mt-md-0">
+        <input class="form-control mr-sm-2" type="text" placeholder="Search" aria-label="Search">
+        <button class="btn btn-outline-success my-2 my-sm-0 center-align" type="submit">Search</button>
+    </form>
+    <div id="myCarousel" class="carousel slide" data-ride="carousel">
+        <!-- Indicators -->
+        <ol class="carousel-indicators">
+            <li data-target="#myCarousel" data-slide-to="0" calss="active"></li>
+            <li data-target="#myCarousel" data-slide-to="1"></li>
+            <li data-target="#myCarousel" data-slide-to="2"></li>
+            <li data-target="#myCarousel" data-slide-to="3"></li>
+        </ol>
+
+        <div class="carousel-inner align-center">
+
+            <div class="item">
+                <img src="https://globalgrasshopper.com/wp-content/uploads/2011/04/most-beautiful-places-to-visit-in-Italy-1000x618.jpg" alt="landscape" style="width:95%;">
+                <div class="carousel-caption">
+                    <h3>Exceptional Travel Guides</h3>
+                    <p>Great opportunity to learn about the people and landscape!</p>
                 </div>
-     <form class="form-inline mt-2 mt-md-0">
-                    <input class="form-control mr-sm-2" type="text" placeholder="Search" aria-label="Search">
-                    <button class="btn btn-outline-success my-2 my-sm-0 center-align" type="submit">Search</button>
-                </form>
-        <div id="myCarousel" class="carousel slide" data-ride="carousel">
-     <!-- Indicators -->
-     <ol class="carousel-indicators">
-                    <li data-target="#myCarousel" data-slide-to="1"></li>
-                    <li data-target="#myCarousel" data-slide-to="0"
-                        class="active" ></li>
-                    <li data-target="#myCarousel" data-slide-to="2"></li>
-                     <li data-target="#myCarousel" data-slide-to="3"></li>
-                </ol>
-                
-           <div class="carousel-inner">
+            </div>
 
-                    <div class="item">
-                        <img src="https://globalgrasshopper.com/wp-content/uploads/2011/04/most-beautiful-places-to-visit-in-Italy-1000x618.jpg" alt="landscape" style="width:95%;">
-                        <div class="carousel-caption">
-                        <h3>Exceptional Travel Guides</h3>
-                        <p>Great opportunity to learn about the people and landscape!</p></div>
-                    </div>
+            <div class="item active">
+                <img src="https://i.pinimg.com/originals/3d/24/e4/3d24e4916624a6a23beb7065823883c3.jpg" alt="Dolomites" style="width:95%;">
+                <div class="carousel-caption">
+                    <h3>Bundle discounts</h3>
+                </div>
+            </div>
 
-                    <div class="item active">
-                        <img src="https://i.pinimg.com/originals/3d/24/e4/3d24e4916624a6a23beb7065823883c3.jpg" alt="Dolomites" style="width:95%;">
-                        <div class="carousel-caption">
-                            <h3>Bundle discounts</h3>
-                        </div>
-                    </div>
+            <div class="item">
+                <img src="https://postcardjar.com/wp-content/uploads/2018/07/Tuscany-wine-tasting-1-e1532035651335.jpg" alt="food and wine" style="width:100%;">
+                <div class="carousel-caption">
+                    <h3>Great food and drink</h3>
+                    <p>You will get to taste real flavors of Italian food and get to enjoy the finest wine offered with the bundle deals.</p>
+                </div>
+                <div class="item">
+                    <img src="https://www.thoughtco.com/thmb/Yb5-EN7bl6CBSlYOHUuUenpZwFc=/768x0/filters:no_upscale():max_bytes(150000):strip_icc()/the-silk-road-crossed-by-marco-polo-593279658-588cac193df78caebc79825f.jpg" alt="Silk road" style="width:100%;">
+                    <div class="carousel-caption">
+                        <h3>Rich History of Italy</h3>
+                        <p>Silk Road and its effect on Italy.</p>
 
-                    <div class="item">
-                        <img src="https://postcardjar.com/wp-content/uploads/2018/07/Tuscany-wine-tasting-1-e1532035651335.jpg" alt="food and wine" style="width:100%;">
-                        <div class="carousel-caption">
-                            <h3>Great food and drink</h3>
-                            <p>You will get to taste real flavors of Italian food and get to enjoy the finest wine offered with the bundle deals.</p>
-                        </div>
-                                            <div class="item">
-                        <img src="https://www.thoughtco.com/thmb/Yb5-EN7bl6CBSlYOHUuUenpZwFc=/768x0/filters:no_upscale():max_bytes(150000):strip_icc()/the-silk-road-crossed-by-marco-polo-593279658-588cac193df78caebc79825f.jpg" alt="Silk road" style="width:100%;">
-                        <div class="carousel-caption">
-                            <h3>Rich History of Italy</h3>
-                            <p>Silk Road and its effect on Italy.</p>
-                        
                     </div>
 
                 </div>
-                
-                
-                
-                
-                
+                <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+                <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+                <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js" integrity="sha384-smHYKdLADwkXOn1EmN1qk/HfnUcbVRZyYmZ4qpPea6sjB/pTJ0euyQp0Mk8ck+5T" crossorigin="anonymous"></script>
+
+                <script>
+                    $('.carousel').carousel({
+                        interval: 2000,
+                        keyboard: true,
+                        pause: 'hover',
+                        wrap: true
+                    });
+
+                </script>
+
+                <div class="containerfluid?">
+                    <div class="row align-items-center bg-white no-gutters my-5 mx-1">
+                        <div class="col my-5 text-center">
+                            <img class="img-square imgsize\" src="https://cdn.britannica.com/82/195482-050-2373E635/Amalfi-Italy.jpg" alt="Ocean view">
+                            <h2 class="tealtext m-2"> $1,600 bundle Includes: </h2>
+
+                            <p> 1. Flight Ticket </p>
+                            <p> 2. Free bed and breafast stay for 3 days</p>
+                            <p> 3. Travel around Sicily</p>
+
+                            <div class="containerfluid?">
+                                <div class="col my-5 text-center">
+                                    <img class="img-square imgsize" src="https://lp-cms-production.imgix.net/2019-06/GettyImages-174463015_high.jpg" alt="Travel from coast to coast ">
+                                    <h2 class="tealtext m-2"> $2200 Includes: </h2>
+
+                                    <p> 1. Flight ticket </p>
+                                    <p> 2. Travel from Sicily to florance</p>
+                                    <p> 3. Free travel stay for 10 days</p>
+
+                                    <div class="col my-5 text-center">
+                                        <img class="img-square imgsize" src="https://travelright.com/wp-content/uploads/2019/12/Dolomites-Italy.jpg" alt="">
+                                        <h2 class="tealtext m-2"> $6,000 bundle Includes: </h2>
+
+                                        <p> 1. All of Bundle 1 </p>
+                                        <p> 2. Travel for 30 days around italy</p>
+                                        <p> 3. Free transportation</p>
+
+
+                                        <div class="row featurette">
+                                            <div class="col-md-7 order-md-2">
+                                                <h2 class="featurette-heading">Vineyard</h2>
+
+                                                <p class="lead">Tour through the vineyard of grape and experince the rich culture of growing them. Get to taste different types of wine and how long they are aged. ALong with the wine, you will get to dine in on the best cheese of Italy.</p>
+
+                                                <div class="col my-5 ml-5 text-center">
+                                                    <img class="img-thumbnail" src="https://cdn.kimkim.com/files/a/content_articles/featured_photos/64f3b1a65f8680089c5d1503656ed512aedd97aa/big-4d940b034583623b3f0b8f1dab6a61fc.jpg" alt="">
+                                                    <div class="row featurette">
+                                                        <div class="col-md-7 order-md-2">
+                                                            <h2 class="featurette-heading">Hike of the dolomites and padle </h2>
+
+                                                            <p class="lead">You will be able to experince the most fascinating view of Italy by padlling on the river water or by hiking it. It will keep your mind, body, and soul at peace. Rejuvenating experiance!</p>
+
+
+                                                            <div class="row featurette">
+                                                                <div class="col-md-7 order-md-2">
+                                                                    <h2 class="featurette-heading">Italian Cuisine</h2>
+
+                                                                    <p class="lead">While travling through and around Italy, you will be able to enjoy different types of cusine from different regions. Here are just a short list of what you will be able to try.Abruzzo. Lamb with cheese and eggs,Basilicat,Calabria,Campania Emilia-Romagna. Tortellini with acacia flowers.
+                                                                        Friuli Venezia Giulia. Spiced frico cheese and toast,Lazio and Le Marche.</p>
+                                                                    <div class="col my-5 ml-5 text-center">
+                                                                        <img class="img-thumbnail" src="https://images.squarespace-cdn.com/content/v1/5e484ab628c78d6f7e602d73/1599248222831-ZMHAFYJT9T3IXH3IVGKY/ke17ZwdGBToddI8pDm48kHRQmmGuFIdqE7GSc9pC9HN7gQa3H78H3Y0txjaiv_0fDoOvxcdMmMKkDsyUqMSsMWxHk725yiiHCCLfrh8O1z5QPOohDIaIeljMHgDF5CVlOqpeNLcJ80NK65_fV7S1USiYnNdBr13Ef5bsQyJSlJSOzzmMHz6CI3sy7o_mBQVGMW9u6oXQZQicHHG1WEE6fg/What-to-eat-in-Italy.png" alt="">
+                                                                        <footer class="bg-white">
+                                                                            <nav class="navbar navbar-expand-sm navbar-dark bg-dark mt-3 mb-0">
+                                                                                <a class="navbar-brand" href="https://shrinking-world.com/course/bacs200">
+                                                                                    <p>
+                                                                                        &copy; Copyright 2020 - UNC BACS 200 Website
+                                                                                    </p>
+                                                                                </a>
+                                                                            </nav>
+                                                                        </footer>
 </body>
+
 </html>
+
 
